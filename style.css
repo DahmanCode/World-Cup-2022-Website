@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Almarai', sans-serif;
+}
+
+:root {
+  --aannabi-color: #811538;
+  --aannabi1-color: #5b0d25;
+}
+
+#header {
+  background: var(--aannabi-color) !important;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  border-bottom: solid 20px #5b0d25;
+}
+
+#header-background {
+  background-image: url(/images/pattern.png);
+}
+
+#logo-header {
+  position: absolute;
+  z-index: 999;
+  left: 100px;
+  top: 60px;
+}
+
+#logo-img {
+  height: 300px;
+  filter: drop-shadow(5px 5px 30px #222);
+}
+
+.text-header {
+  direction: rtl;
+  font-size: 50px;
+  margin-right: 100px;
+  color: white;
+}
+
+.text-header h1 {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.text-header h1:nth-child(2) {
+  font-size: 90px;
+}
+
+.card-header {
+  background-color: var(--aannabi-color) !important;
+  color: white !important;
+  text-align: center;
+}
+
+.secondRow {
+  background-color: var(--aannabi1-color) !important;
+  color: white;
+}
