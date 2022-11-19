@@ -60,3 +60,8 @@
   background-color: var(--aannabi1-color) !important;
   color: white;
 }
+
+.match {
+  background-color: var(--aannabi-color);
+  color: white;
+}
